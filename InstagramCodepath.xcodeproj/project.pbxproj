@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5259D434112DAFB8422FFDA4 /* libPods-InstagramCodepath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8B8F2DF095997A571C4311C /* libPods-InstagramCodepath.a */; };
+		14357D057020A3178E2ABD5A /* Pods_InstagramCodepath.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EF470AEBC000D4464553F69 /* Pods_InstagramCodepath.framework */; };
 		979683B61C62D0BB009760C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979683B51C62D0BB009760C7 /* AppDelegate.swift */; };
 		979683B81C62D0BB009760C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979683B71C62D0BB009760C7 /* ViewController.swift */; };
 		979683BB1C62D0BB009760C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 979683B91C62D0BB009760C7 /* Main.storyboard */; };
@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4EF470AEBC000D4464553F69 /* Pods_InstagramCodepath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstagramCodepath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		853F1BA5F67523CB7AC7632F /* Pods-InstagramCodepath.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramCodepath.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramCodepath/Pods-InstagramCodepath.debug.xcconfig"; sourceTree = "<group>"; };
 		979683B21C62D0BB009760C7 /* InstagramCodepath.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstagramCodepath.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		979683B51C62D0BB009760C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		979683BF1C62D0BB009760C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		979683C11C62D0BB009760C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A015FCC3287B82DB4F1C46FD /* Pods-InstagramCodepath.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstagramCodepath.release.xcconfig"; path = "Pods/Target Support Files/Pods-InstagramCodepath/Pods-InstagramCodepath.release.xcconfig"; sourceTree = "<group>"; };
-		B8B8F2DF095997A571C4311C /* libPods-InstagramCodepath.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InstagramCodepath.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5259D434112DAFB8422FFDA4 /* libPods-InstagramCodepath.a in Frameworks */,
+				14357D057020A3178E2ABD5A /* Pods_InstagramCodepath.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +52,7 @@
 		69F3952A3E5ED961471D3606 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B8B8F2DF095997A571C4311C /* libPods-InstagramCodepath.a */,
+				4EF470AEBC000D4464553F69 /* Pods_InstagramCodepath.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

@@ -1,0 +1,6 @@
+framework module Pods_InstagramCodepath {
+  umbrella header "Pods-InstagramCodepath-umbrella.h"
+
+  export *
+  module * { export * }
+}
